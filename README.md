@@ -3,6 +3,7 @@
 This file contains queries solving question raised in a database challenge on codeacademy.
 
 Basic Requirements
+
 Which tracks appeared in the most playlists? how many playlist did they appear in?
 
 	  SELECT t.name track, COUNT(pt.trackid) trackfrequency, COUNT(pt.playlistid) playlists
